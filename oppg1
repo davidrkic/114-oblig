@@ -1,0 +1,31 @@
+fun eur():
+  nok = 100
+  EurKurs = 0.084
+  EUR = nok * EurKurs
+  print(EUR)
+where:
+  eur() is 8.4
+
+end
+
+
+fun usd():
+  nok = 100
+  UsdKurs = 0.092
+  USD = nok * UsdKurs
+  print(USD)
+where:
+  usd() is 9.2
+end
+
+fun velg_valuta(x):
+  if x == 0:
+    eur()
+  else if x == 2:
+    usd()
+  end
+where: 
+  velg_valuta(2) is 9.2
+  velg_valuta(0) is 8.4
+end
+# klarte ikke å connecte til google drive så fikk ikke lastet ned selve filen |
