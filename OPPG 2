@@ -1,0 +1,34 @@
+fun drawflag(x):
+  doc: "gitt verdi av (x), så vil program vise enten monokrom eller et farget flag"
+  if x == "monokrom":
+    blaa_ring = circle(25, "outline", "black")
+    gul_ring = circle(25, "outline", "black")
+    svart_ring = circle(25, "outline", "black")
+    gronn_ring = circle(25, "outline", "black") 
+    rod_ring = circle(25, "outline", "black")
+    # Jeg setter kordinatene til sirklene, utfra hvor midten er og høyden. Så fant jeg riktig kordinater ved å bare prøve meg frem     
+    put-image(blaa_ring, 95, 115, 
+      put-image(gul_ring, 120, 85,
+        put-image(svart_ring, 150, 115,
+          put-image(gronn_ring, 180, 85,
+            put-image(rod_ring, 205, 115,
+              empty-color-scene(300, 200, "white"))))))
+    
+            
+  else if x == ("farge"):
+    blaa_ring = circle(25, "outline", "blue")
+    gul_ring = circle(25, "outline", "gold")
+    svart_ring = circle(25, "outline", "black")
+    gronn_ring = circle(25, "outline", "green") 
+    rod_ring = circle(25, "outline", "red")
+    
+    
+    put-image(blaa_ring, 95, 115, 
+      put-image(gul_ring, 120, 85,
+        put-image(svart_ring, 150, 115,
+          put-image(gronn_ring, 180, 85,
+            put-image(rod_ring, 205, 115,
+              empty-color-scene(300, 200, "white"))))))
+  end
+end
+      
