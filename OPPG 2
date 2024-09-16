@@ -31,4 +31,4 @@ fun drawflag(x):
               empty-color-scene(300, 200, "white"))))))
   end
 end
-      
+ # klarte ikke å connecte til google drive så fikk ikke lastet ned selve filen |      
